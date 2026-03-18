@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const images = [
-  { src: '/images/private-cabin.png', alt: 'Private Cabin', span: 'md:col-span-2 md:row-span-2' },
-  { src: '/images/open-desks.png', alt: 'Open Desks Area', span: 'md:col-span-1 md:row-span-1' },
-  { src: '/images/meeting-room.png', alt: 'Meeting Room', span: 'md:col-span-1 md:row-span-1' },
-  { src: '/images/team-office.png', alt: 'Team Office', span: 'md:col-span-1 md:row-span-1' },
-  { src: '/images/pantry.png', alt: 'Modern Pantry', span: 'md:col-span-1 md:row-span-1' },
+  { src: '/nexdesk/images/private-cabin.png', alt: 'Private Cabin', span: 'md:col-span-2 md:row-span-2' },
+  { src: '/nexdesk/images/open-desks.png', alt: 'Open Desks Area', span: 'md:col-span-1 md:row-span-1' },
+  { src: '/nexdesk/images/meeting-room.png', alt: 'Meeting Room', span: 'md:col-span-1 md:row-span-1' },
+  { src: '/nexdesk/images/team-office.png', alt: 'Team Office', span: 'md:col-span-1 md:row-span-1' },
+  { src: '/nexdesk/images/pantry.png', alt: 'Modern Pantry', span: 'md:col-span-1 md:row-span-1' },
 ];
 
 export default function Gallery() {

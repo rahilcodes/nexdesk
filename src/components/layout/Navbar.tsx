@@ -40,7 +40,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <Link href="/" className="block">
           <img 
-            src={isScrolled ? '/images/logo-black.png' : '/images/logo-white.png'} 
+            src={isScrolled ? '/nexdesk/images/logo-black.png' : '/nexdesk/images/logo-white.png'} 
             alt="NEXDESK" 
             className="h-8 md:h-10 w-auto transition-all" 
           />
