@@ -2,19 +2,19 @@
 
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-black text-white">
       {/* Background Image / Overlay */}
-      <div 
-        className="absolute inset-0 z-0 opacity-40"
-        style={{
-          backgroundImage: 'url(/nexdesk/images/meeting-room.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      />
+      <div className="absolute inset-0 z-0 opacity-40">
+        <img 
+          src="/nexdesk/images/meeting-room.png" 
+          alt="Premium Coworking Space" 
+          className="object-cover object-center w-full h-full"
+        />
+      </div>
       <div className="absolute inset-0 z-0 bg-gradient-to-t from-black via-black/60 to-transparent" />
       
       <div className="container mx-auto px-6 relative z-10 text-center max-w-4xl">
