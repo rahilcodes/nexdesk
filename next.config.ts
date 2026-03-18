@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/nexdesk',
+  assetPrefix: '/nexdesk/',
 };
 
 export default nextConfig;
