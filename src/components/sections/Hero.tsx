@@ -10,7 +10,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 z-0 opacity-40"
         style={{
-          backgroundImage: 'url(/images/meeting-room.png)',
+          backgroundImage: 'url(/nexdesk/images/meeting-room.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
