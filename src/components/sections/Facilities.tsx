@@ -48,15 +48,6 @@ export default function Facilities() {
           })}
         </div>
 
-        <motion.div 
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          className="flex items-center justify-center gap-2 text-zinc-500 text-sm"
-        >
-          <FileWarning size={16} />
-          <span>Note: No printer/Xerox available on premises.</span>
-        </motion.div>
       </div>
     </section>
   );

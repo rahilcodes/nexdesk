@@ -27,8 +27,8 @@ const workspaces = [
     image: '/nexdesk/images/private-cabin1.png',
   },
   {
-    title: 'Team Office',
-    capacity: 'Up to 10 people',
+    title: 'Private Cabin with Panoramic View',
+    capacity: '4 to 8 people',
     desc: 'Customizable private suites for larger growing teams.',
     icon: Users,
     image: '/nexdesk/images/team-officee.png',
