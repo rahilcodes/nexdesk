@@ -44,7 +44,7 @@ export default function WorkspaceTypes() {
           <p className="text-lg text-zinc-600">From solo freelancers to growing teams of 10.</p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
           {workspaces.map((space, i) => {
             const Icon = space.icon;
             return (
@@ -55,8 +55,8 @@ export default function WorkspaceTypes() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
               >
-                <Card className="h-full flex flex-col hover:border-black transition-colors group overflow-hidden">
-                  <div className="relative h-48 w-full overflow-hidden">
+                <Card className="h-full flex flex-col hover:border-black transition-colors group overflow-hidden shadow-lg border-zinc-200">
+                  <div className="relative h-64 sm:h-80 w-full overflow-hidden">
                     <img 
                       src={space.image} 
                       alt={space.title} 
