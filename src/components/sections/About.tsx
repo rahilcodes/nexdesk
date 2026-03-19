@@ -23,14 +23,14 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="/nexdesk/images/pantry2.png" 
+                src="/images/pantry2.png" 
                 alt="Modern Pantry Area" 
                 className="w-full h-80 object-cover hover:scale-105 transition-transform duration-700" 
               />
             </div>
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="/nexdesk/images/varanda.png" 
+                src="/images/varanda.png" 
                 alt="Outdoor Veranda" 
                 className="w-full h-80 object-cover hover:scale-105 transition-transform duration-700" 
               />

@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Background Image / Overlay */}
       <div className="absolute inset-0 z-0 opacity-40">
         <Image 
-          src="/nexdesk/images/reception.png" 
+          src="/images/reception.png" 
           alt="Premium Coworking Space" 
           className="object-cover object-center"
           fill

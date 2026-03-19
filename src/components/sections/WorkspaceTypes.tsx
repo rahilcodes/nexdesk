@@ -10,28 +10,28 @@ const workspaces = [
     capacity: '1 person',
     desc: 'Flexible seating in our open, dynamic workspace area.',
     icon: User,
-    image: '/nexdesk/images/open-desks.png',
+    image: '/images/open-desks.png',
   },
   {
     title: 'Dedicated Desk',
     capacity: '1 fixed desk',
     desc: 'Your own personal desk in a shared professional space.',
     icon: MonitorPlay,
-    image: '/nexdesk/images/open-desks1.png',
+    image: '/images/open-desks1.png',
   },
   {
     title: 'Private Cabin',
     capacity: 'Up to 4 people',
     desc: 'Enclosed secure spaces perfect for focused small teams.',
     icon: Briefcase,
-    image: '/nexdesk/images/private-cabin1.png',
+    image: '/images/private-cabin1.png',
   },
   {
     title: 'Team Office Space',
     capacity: 'Up to 10 people',
     desc: 'Customizable private suites for larger growing teams.',
     icon: Users,
-    image: '/nexdesk/images/team-officee.png',
+    image: '/images/team-officee.png',
   },
 ];
 
@@ -89,7 +89,7 @@ export default function WorkspaceTypes() {
           </div>
           <div className="md:w-1/2 w-full h-64 md:h-auto md:absolute md:right-0 md:top-0 md:bottom-0 rounded-2xl md:rounded-none overflow-hidden">
             <img 
-              src="/nexdesk/images/meeting-room1.png" 
+              src="/images/meeting-room1.png" 
               alt="Conference Room" 
               className="w-full h-full object-cover opacity-80" 
             />

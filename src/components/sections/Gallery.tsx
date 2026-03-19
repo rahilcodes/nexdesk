@@ -4,15 +4,15 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const images = [
-  { src: '/nexdesk/images/private-cabin1.png', alt: 'Premium Private Cabin', span: 'md:col-span-2 md:row-span-2' },
-  { src: '/nexdesk/images/reception.png', alt: 'Reception & Lobby', span: 'md:col-span-1 md:row-span-1' },
-  { src: '/nexdesk/images/open-desks1.png', alt: 'Open Desks Area', span: 'md:col-span-1 md:row-span-1' },
-  { src: '/nexdesk/images/team-officee.png', alt: 'Dedicated Team Office', span: 'md:col-span-1 md:row-span-1' },
-  { src: '/nexdesk/images/meeting-room1.png', alt: 'Conference Room', span: 'md:col-span-1 md:row-span-1' },
-  { src: '/nexdesk/images/varanda.png', alt: 'Outdoor Veranda', span: 'md:col-span-2 md:row-span-1' },
-  { src: '/nexdesk/images/waiting-charis-new.png', alt: 'Waiting Lounge', span: 'md:col-span-1 md:row-span-1' },
-  { src: '/nexdesk/images/pantry2.png', alt: 'Modern Pantry', span: 'md:col-span-1 md:row-span-1' },
-  { src: '/nexdesk/images/gallery.png', alt: 'NEXDESK Community Space', span: 'md:col-span-2 md:row-span-2' },
+  { src: '/images/private-cabin1.png', alt: 'Premium Private Cabin', span: 'md:col-span-2 md:row-span-2' },
+  { src: '/images/reception.png', alt: 'Reception & Lobby', span: 'md:col-span-1 md:row-span-1' },
+  { src: '/images/open-desks1.png', alt: 'Open Desks Area', span: 'md:col-span-1 md:row-span-1' },
+  { src: '/images/team-officee.png', alt: 'Dedicated Team Office', span: 'md:col-span-1 md:row-span-1' },
+  { src: '/images/meeting-room1.png', alt: 'Conference Room', span: 'md:col-span-1 md:row-span-1' },
+  { src: '/images/varanda.png', alt: 'Outdoor Veranda', span: 'md:col-span-2 md:row-span-1' },
+  { src: '/images/waiting-charis-new.png', alt: 'Waiting Lounge', span: 'md:col-span-1 md:row-span-1' },
+  { src: '/images/pantry2.png', alt: 'Modern Pantry', span: 'md:col-span-1 md:row-span-1' },
+  { src: '/images/gallery.png', alt: 'NEXDESK Community Space', span: 'md:col-span-2 md:row-span-2' },
 ];
 
 export default function Gallery() {
