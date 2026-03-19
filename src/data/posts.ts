@@ -19,7 +19,7 @@ export const posts: BlogPost[] = [
     date: 'March 15, 2026',
     author: 'NEXDESK Team',
     tags: ['Startups', 'Kondapur', 'Coworking'],
-    image: '/nexdesk/images/waiting-chairs-CVuVAVi3.jpg.jpeg',
+    image: '/nexdesk/images/waiting-charis-new.png',
     content: `
 ## The Rise of Kondapur as a Startup Hub
 

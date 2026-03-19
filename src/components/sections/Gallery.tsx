@@ -10,8 +10,9 @@ const images = [
   { src: '/nexdesk/images/team-officee.png', alt: 'Dedicated Team Office', span: 'md:col-span-1 md:row-span-1' },
   { src: '/nexdesk/images/meeting-room1.png', alt: 'Conference Room', span: 'md:col-span-1 md:row-span-1' },
   { src: '/nexdesk/images/varanda.png', alt: 'Outdoor Veranda', span: 'md:col-span-2 md:row-span-1' },
-  { src: '/nexdesk/images/waiting-chairs-CVuVAVi3.jpg.jpeg', alt: 'Waiting Lounge', span: 'md:col-span-1 md:row-span-1' },
+  { src: '/nexdesk/images/waiting-charis-new.png', alt: 'Waiting Lounge', span: 'md:col-span-1 md:row-span-1' },
   { src: '/nexdesk/images/pantry2.png', alt: 'Modern Pantry', span: 'md:col-span-1 md:row-span-1' },
+  { src: '/nexdesk/images/gallery.png', alt: 'NEXDESK Community Space', span: 'md:col-span-2 md:row-span-2' },
 ];
 
 export default function Gallery() {
@@ -23,7 +24,7 @@ export default function Gallery() {
           <p className="text-lg text-zinc-600">A look inside our premium spaces.</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-4 h-[800px] md:h-[600px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-[250px] md:auto-rows-[300px] gap-4">
           {images.map((img, i) => (
             <motion.div
               key={i}

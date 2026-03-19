@@ -99,7 +99,7 @@ export default function Contact() {
           className="mt-16 w-full h-64 md:h-96 rounded-3xl overflow-hidden shadow-2xl relative"
         >
           <img 
-            src="/nexdesk/images/waiting-chairs-CVuVAVi3.jpg.jpeg" 
+            src="/nexdesk/images/waiting-charis-new.png" 
             alt="NEXDESK Waiting Lounge" 
             className="w-full h-full object-cover opacity-90 hover:scale-105 transition-transform duration-1000" 
           />
