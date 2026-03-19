@@ -86,6 +86,24 @@ export default function Contact() {
             Get Directions
           </a>
         </motion.div>
+
+        <motion.div 
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          className="mt-16 w-full h-64 md:h-96 rounded-3xl overflow-hidden shadow-2xl relative"
+        >
+          <img 
+            src="/nexdesk/images/waiting-chairs-CVuVAVi3.jpg.jpeg" 
+            alt="NEXDESK Waiting Lounge" 
+            className="w-full h-full object-cover opacity-90 hover:scale-105 transition-transform duration-1000" 
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent pointer-events-none" />
+          <div className="absolute bottom-6 left-8 text-white z-10">
+            <h3 className="text-2xl font-bold">Step into your new workspace.</h3>
+            <p className="text-zinc-200">Our team is ready to welcome you.</p>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

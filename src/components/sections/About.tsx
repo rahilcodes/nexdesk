@@ -16,9 +16,26 @@ export default function About() {
           <h2 className="text-3xl md:text-5xl font-bold mb-8 tracking-tight">
             More than just a <span className="text-accent-red">Workspace.</span>
           </h2>
-          <p className="text-xl md:text-2xl text-zinc-600 leading-relaxed font-light">
+          <p className="text-xl md:text-2xl text-zinc-600 leading-relaxed font-light mb-16">
             NEXDESK is a premium coworking space located in Kondapur, built for productivity, collaboration, and growth. Ideal for freelancers, startups, and teams who demand an environment that matches their ambition.
           </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+            <div className="rounded-3xl overflow-hidden shadow-2xl">
+              <img 
+                src="/nexdesk/images/pantry2.png" 
+                alt="Modern Pantry Area" 
+                className="w-full h-80 object-cover hover:scale-105 transition-transform duration-700" 
+              />
+            </div>
+            <div className="rounded-3xl overflow-hidden shadow-2xl">
+              <img 
+                src="/nexdesk/images/varanda.png" 
+                alt="Outdoor Veranda" 
+                className="w-full h-80 object-cover hover:scale-105 transition-transform duration-700" 
+              />
+            </div>
+          </div>
         </motion.div>
       </div>
     </section>
