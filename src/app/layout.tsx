@@ -8,8 +8,8 @@ import FloatingButtons from '@/components/layout/FloatingButtons';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'Best Coworking Space in Kondapur | NEXDESK',
-  description: 'Premium coworking spaces in Kondapur designed for freelancers, startups, and growing teams. Book your spot today at NEXDESK.',
+  title: 'Premium Coworking Space in Kondapur, Gachibowli & Hi-Tech City | NEXDESK Hyderabad',
+  description: 'Located at the prime intersection of Kondapur, Gachibowli, and Hi-Tech City, NEXDESK offers premium coworking spaces in Hyderabad for startups, teams, and freelancers.',
 };
 
 export default function RootLayout({

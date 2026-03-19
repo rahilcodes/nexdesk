@@ -30,8 +30,8 @@ export default function Hero() {
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter mb-6">
             Build. Connect. <span className="text-accent-red">Grow.</span>
           </h1>
-          <p className="text-xl md:text-2xl text-zinc-300 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
-            Premium coworking spaces designed for freelancers, startups, and growing teams.
+          <p className="text-xl md:text-2xl text-zinc-300 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
+            Premium coworking spaces perfectly located at the prime intersection of Kondapur, Gachibowli, and Hi-Tech City, Hyderabad. Designed for freelancers, startups, and growing teams.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">

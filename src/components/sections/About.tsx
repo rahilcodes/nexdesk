@@ -17,7 +17,7 @@ export default function About() {
             More than just a <span className="text-accent-red">Workspace.</span>
           </h2>
           <p className="text-xl md:text-2xl text-zinc-600 leading-relaxed font-light mb-16">
-            NEXDESK is a premium coworking space located in Kondapur, built for productivity, collaboration, and growth. Ideal for freelancers, startups, and teams who demand an environment that matches their ambition.
+            NEXDESK is a premium coworking space strategically located at the bustling borders of Kondapur, Gachibowli, and Hi-Tech City in Hyderabad. Built for productivity, collaboration, and growth, it is the ideal ecosystem for freelancers, startups, and teams who demand an environment that matches their ambition.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">

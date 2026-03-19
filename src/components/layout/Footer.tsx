@@ -10,7 +10,7 @@ export default function Footer() {
               <img src="/nexdesk/images/logo-white.png" alt="NEXDESK" className="h-10 w-auto" />
             </Link>
             <p className="text-zinc-400 max-w-sm">
-              Build. Connect. Grow. Premium coworking spaces designed for freelancers, startups, and growing teams in Kondapur, Hyderabad.
+              Build. Connect. Grow. Premium coworking spaces designed for freelancers, startups, and growing teams across Kondapur, Gachibowli, and Hi-Tech City, Hyderabad.
             </p>
           </div>
           <div>
