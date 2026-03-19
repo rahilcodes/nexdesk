@@ -73,12 +73,12 @@ export default function Pricing() {
               
               <div className="mb-6 pb-6 border-b border-zinc-100">
                 <div className="flex items-baseline gap-2 mb-2">
-                  <span className="text-6xl font-black tracking-tighter text-black">₹4,999</span>
+                  <span className="text-6xl font-black tracking-tighter text-black">₹5,999</span>
                   <span className="text-zinc-400 font-medium text-xl">/mo</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <span className="text-lg text-zinc-400 line-through decoration-accent-red/60 decoration-2">₹5,999/mo</span>
-                  <span className="text-xs bg-red-100 text-accent-red font-bold px-3 py-1 rounded-full border border-red-200">Limited Promotion</span>
+                  <span className="text-lg text-zinc-400 line-through decoration-accent-red/60 decoration-2">₹7,999/mo</span>
+                  <span className="text-xs bg-red-100 text-accent-red font-bold px-3 py-1 rounded-full border border-red-200">Launch Offer</span>
                 </div>
               </div>
 

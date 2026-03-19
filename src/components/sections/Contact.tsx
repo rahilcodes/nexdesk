@@ -20,10 +20,15 @@ export default function Contact() {
                 <Phone size={24} />
               </div>
               <h3 className="text-xl font-bold mb-2">Call Us</h3>
-              <p className="text-zinc-600 mb-6 flex-grow">Speak directly with our team for inquiries and bookings.</p>
-              <a href="tel:+919966998665" className="text-lg font-bold hover:text-accent-red transition-colors inline-block w-full py-3 bg-zinc-100 rounded-full">
-                9966998665
-              </a>
+              <p className="text-zinc-600 mb-4 flex-grow">Speak directly with our team for inquiries and bookings.</p>
+              <div className="w-full flex flex-col gap-2">
+                <a href="tel:+919010185859" className="text-lg font-bold hover:text-accent-red transition-colors inline-block w-full py-2 bg-zinc-100 rounded-full">
+                  9 0101 8585 9
+                </a>
+                <a href="tel:+919010184849" className="text-lg font-bold hover:text-accent-red transition-colors inline-block w-full py-2 bg-zinc-100 rounded-full">
+                  9 0101 8484 9
+                </a>
+              </div>
             </Card>
           </motion.div>
 
@@ -61,14 +66,14 @@ export default function Contact() {
           className="mt-12 flex flex-col sm:flex-row justify-center gap-4"
         >
           <a 
-            href="tel:+919966998665" 
+            href="tel:+919010185859" 
             className="inline-flex items-center justify-center h-14 px-8 rounded-full bg-black text-white font-medium hover:bg-zinc-800 transition-colors gap-2 text-lg"
           >
             <Phone size={20} />
             Call Now
           </a>
           <a 
-            href="https://wa.me/919966998665?text=Hi%20I%20want%20to%20schedule%20a%20visit%20to%20NEXDESK"
+            href="https://wa.me/919010185859?text=Hi%20I%20want%20to%20schedule%20a%20visit%20to%20NEXDESK"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center h-14 px-8 rounded-full bg-green-500 text-white font-medium hover:bg-green-600 transition-colors gap-2 text-lg"

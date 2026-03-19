@@ -24,7 +24,7 @@ export default function DailyBookings() {
               Ideal for freelancers & travelers. Experience our premium workspace for a day without any long-term commitment.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button size="lg" className="w-full sm:w-auto text-lg h-14" onClick={() => window.open('https://wa.me/919966998665?text=Hi%20I%20want%20to%20book%20a%20Day%20Pass%20at%20NEXDESK', '_blank')}>
+              <Button size="lg" className="w-full sm:w-auto text-lg h-14" onClick={() => window.open('https://wa.me/919010185859?text=Hi%20I%20want%20to%20book%20a%20Day%20Pass%20at%20NEXDESK', '_blank')}>
                 Book a Day Pass
               </Button>
               <Button size="lg" variant="outline" className="w-full sm:w-auto text-lg h-14 border-zinc-700 text-white hover:bg-white hover:text-black" onClick={() => window.location.href = '#contact'}>

@@ -31,8 +31,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-zinc-800 pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-zinc-500">
-          <p>&copy; {new Date().getFullYear()} NEXDESK Coworking. All rights reserved.</p>
-          <p className="mt-2 md:mt-0">Located in Kondapur, Hyderabad.</p>
+          <p>&copy; {new Date().getFullYear()} NEXDESK. All rights reserved. Designed and developed by <a href="https://creativals.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent-red transition-colors text-zinc-400">Creativals.com</a></p>
+          <p className="mt-4 md:mt-0">Located in Kondapur, Hyderabad.</p>
         </div>
       </div>
     </footer>

@@ -42,7 +42,7 @@ export default function Hero() {
               size="lg" 
               variant="outline" 
               className="w-full sm:w-auto text-lg bg-black/50 border-white/20 text-white hover:bg-white hover:text-black hover:border-white"
-              onClick={() => window.open('https://wa.me/919966998665?text=Hi%20I%20want%20to%20schedule%20a%20visit%20to%20NEXDESK', '_blank')}
+              onClick={() => window.open('https://wa.me/919010185859?text=Hi%20I%20want%20to%20schedule%20a%20visit%20to%20NEXDESK', '_blank')}
             >
               WhatsApp Now
             </Button>
@@ -50,7 +50,7 @@ export default function Hero() {
               size="lg" 
               variant="ghost" 
               className="w-full sm:w-auto text-lg text-white hover:bg-white/10"
-              onClick={() => window.location.href = 'tel:+919966998665'}
+              onClick={() => window.location.href = 'tel:+919010185859'}
             >
               Call Now
             </Button>

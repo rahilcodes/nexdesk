@@ -29,8 +29,8 @@ export default function RootLayout({
               "name": "NEXDESK",
               "image": "https://nexdesk.in/nexdesk/images/private-cabin1.png",
               "url": "https://nexdesk.in",
-              "telephone": "+919966998665",
-              "priceRange": "₹4999 - ₹5999",
+              "telephone": "+919010185859",
+              "priceRange": "₹5999 - ₹7999",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "B-609, B Block, Asian Suncity, Behind AMB Mall",
