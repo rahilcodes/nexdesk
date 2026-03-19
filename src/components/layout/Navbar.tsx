@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
+import { getAssetPath } from '@/lib/utils';
 
 const _links = [
   { name: 'About', href: '/#about' },
