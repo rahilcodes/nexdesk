@@ -20,11 +20,11 @@ export default function BlogList() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {posts.map((post) => (
             <Link key={post.id} href={`/blog/${post.slug}`} className="group block h-full">
-              <Card className="h-full flex flex-col hover:border-black transition-colors overflow-hidden">
-                <div className="relative h-56 w-full mb-6 overflow-hidden">
+              <Card className="h-full flex flex-col hover:border-black transition-colors overflow-hidden shadow-md">
+                <div className="relative h-56 w-full overflow-hidden border-b border-zinc-100">
                   <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                 </div>
-                <div className="px-8 pb-8 flex flex-col flex-grow">
+                <div className="p-6 flex flex-col flex-grow">
                   <div className="flex flex-wrap gap-2 mb-4">
                     {post.tags.map((tag, i) => (
                       <span key={i} className="bg-zinc-100 text-zinc-600 px-3 py-1 rounded-full text-xs font-semibold tracking-wider uppercase">
