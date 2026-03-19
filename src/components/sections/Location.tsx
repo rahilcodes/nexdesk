@@ -23,7 +23,7 @@ export default function Location() {
             <div className="w-14 h-14 bg-accent-red/10 text-accent-red rounded-full flex items-center justify-center mb-6">
               <MapPin size={28} />
             </div>
-            <h3 className="text-2xl font-bold mb-4">NEXDESK Hub</h3>
+            <h3 className="text-2xl font-bold mb-4">NEXDESK</h3>
             <p className="text-zinc-600 text-lg leading-relaxed mb-8">
               B-609, B Block,<br/> 
               Asian Suncity,<br/>
