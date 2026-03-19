@@ -7,6 +7,7 @@ export interface BlogPost {
   author: string;
   content: string;
   tags: string[];
+  image: string;
 }
 
 export const posts: BlogPost[] = [
@@ -18,6 +19,7 @@ export const posts: BlogPost[] = [
     date: 'March 15, 2026',
     author: 'NEXDESK Team',
     tags: ['Startups', 'Kondapur', 'Coworking'],
+    image: '/nexdesk/images/waiting-chairs-CVuVAVi3.jpg.jpeg',
     content: `
 ## The Rise of Kondapur as a Startup Hub
 
@@ -51,6 +53,7 @@ Setting up high-speed enterprise-grade WiFi, maintaining continuous power backup
     date: 'March 10, 2026',
     author: 'NEXDESK Team',
     tags: ['Location', 'Hyderabad', 'Office Space'],
+    image: '/nexdesk/images/open-desks.png',
     content: `
 ## The Great Hyderabad Debate: Kondapur or Gachibowli?
 
@@ -84,6 +87,7 @@ Kondapur hosts a thriving, diverse community of tech startups, creative agencies
     date: 'March 05, 2026',
     author: 'NEXDESK Team',
     tags: ['Economics', 'Traditional Office', 'Hyderabad'],
+    image: '/nexdesk/images/team-officee.png',
     content: `
 ## Unmasking the True Price of a Traditional Office Lease
 
@@ -123,6 +127,7 @@ If your team doubles in size in six months, a traditional lease traps you. You e
     date: 'February 28, 2026',
     author: 'NEXDESK Team',
     tags: ['Hybrid Work', 'Productivity', 'Culture'],
+    image: '/nexdesk/images/meeting-room1.png',
     content: `
 ## The Hybrid Work Dilemma
 
@@ -161,6 +166,7 @@ Offering employees a beautifully designed, premium workspace in a prime location
     date: 'February 20, 2026',
     author: 'NEXDESK Team',
     tags: ['Freelancers', 'Productivity', 'Kondapur'],
+    image: '/nexdesk/images/private-cabin1.png',
     content: `
 ## The Coffee Shop Illusion
 

@@ -66,7 +66,7 @@ export default function Navbar() {
           <Button 
             variant={isDarkText ? 'primary' : 'secondary'} 
             size="sm"
-            onClick={() => window.location.href = '#contact'}
+            onClick={() => window.location.href = '/#contact'}
           >
             Schedule Visit
           </Button>

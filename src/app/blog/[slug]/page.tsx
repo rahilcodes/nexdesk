@@ -58,6 +58,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           </div>
         </div>
 
+        <div className="w-full h-64 md:h-[400px] rounded-3xl overflow-hidden mb-12 shadow-lg">
+          <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
+        </div>
+
         <article className="prose prose-lg md:prose-xl prose-zinc max-w-none prose-a:text-accent-red hover:prose-a:text-black">
           <ReactMarkdown>{post.content}</ReactMarkdown>
         </article>
