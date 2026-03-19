@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { getAssetPath } from '@/lib/utils';
 import { Phone, Mail, Clock, MessageCircle, MapPin } from 'lucide-react';
 import { Card } from '@/components/ui/Card';
 
@@ -99,7 +100,7 @@ export default function Contact() {
           className="mt-16 w-full h-64 md:h-96 rounded-3xl overflow-hidden shadow-2xl relative"
         >
           <img 
-            src="/images/waiting-charis-new.png" 
+            src={getAssetPath("/images/waiting-charis-new.png")} 
             alt="NEXDESK Waiting Lounge" 
             className="w-full h-full object-cover opacity-90 hover:scale-105 transition-transform duration-1000" 
           />

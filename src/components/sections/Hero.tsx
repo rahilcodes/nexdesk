@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
+import { getAssetPath } from '@/lib/utils';
 import Image from 'next/image';
 
 export default function Hero() {
@@ -10,7 +11,7 @@ export default function Hero() {
       {/* Background Image / Overlay */}
       <div className="absolute inset-0 z-0 opacity-40">
         <Image 
-          src="/images/reception.png" 
+          src={getAssetPath('/images/reception.png')} 
           alt="Premium Coworking Space" 
           className="object-cover object-center"
           fill

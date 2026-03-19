@@ -44,7 +44,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <Link href="/" className="block">
           <img 
-            src={isDarkText ? '/images/logo-black.png' : '/images/logo-white.png'} 
+            src={isDarkText ? getAssetPath('/images/logo-black.png') : getAssetPath('/images/logo-white.png')} 
             alt="NEXDESK" 
             className="h-8 md:h-10 w-auto transition-all" 
           />

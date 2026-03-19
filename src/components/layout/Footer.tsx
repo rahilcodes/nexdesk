@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { getAssetPath } from '@/lib/utils';
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-2">
             <Link href="/" className="mb-6 block">
-              <img src="/images/logo-white.png" alt="NEXDESK" className="h-10 w-auto" />
+              <img src={getAssetPath("/images/logo-white.png")} alt="NEXDESK" className="h-10 w-auto" />
             </Link>
             <p className="text-zinc-400 max-w-sm">
               Build. Connect. Grow. Premium coworking spaces designed for freelancers, startups, and growing teams across Kondapur, Gachibowli, and Hi-Tech City, Hyderabad.

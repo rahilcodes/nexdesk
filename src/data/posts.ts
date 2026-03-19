@@ -1,3 +1,5 @@
+import { getAssetPath } from '@/lib/utils';
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -19,7 +21,7 @@ export const posts: BlogPost[] = [
     date: 'March 15, 2026',
     author: 'NEXDESK Team',
     tags: ['Startups', 'Kondapur', 'Coworking'],
-    image: '/images/waiting-charis-new.png',
+    image: getAssetPath('/images/waiting-charis-new.png'),
     content: `
 ## The Rise of Kondapur as a Startup Hub
 
@@ -53,7 +55,7 @@ Setting up high-speed enterprise-grade WiFi, maintaining continuous power backup
     date: 'March 10, 2026',
     author: 'NEXDESK Team',
     tags: ['Location', 'Hyderabad', 'Office Space'],
-    image: '/images/open-desks.png',
+    image: getAssetPath('/images/open-desks.png'),
     content: `
 ## The Great Hyderabad Debate: Kondapur or Gachibowli?
 
@@ -87,7 +89,7 @@ Kondapur hosts a thriving, diverse community of tech startups, creative agencies
     date: 'March 05, 2026',
     author: 'NEXDESK Team',
     tags: ['Economics', 'Traditional Office', 'Hyderabad'],
-    image: '/images/team-officee.png',
+    image: getAssetPath('/images/team-officee.png'),
     content: `
 ## Unmasking the True Price of a Traditional Office Lease
 
@@ -127,7 +129,7 @@ If your team doubles in size in six months, a traditional lease traps you. You e
     date: 'February 28, 2026',
     author: 'NEXDESK Team',
     tags: ['Hybrid Work', 'Productivity', 'Culture'],
-    image: '/images/meeting-room1.png',
+    image: getAssetPath('/images/meeting-room1.png'),
     content: `
 ## The Hybrid Work Dilemma
 
@@ -166,7 +168,7 @@ Offering employees a beautifully designed, premium workspace in a prime location
     date: 'February 20, 2026',
     author: 'NEXDESK Team',
     tags: ['Freelancers', 'Productivity', 'Kondapur'],
-    image: '/images/private-cabin1.png',
+    image: getAssetPath('/images/private-cabin1.png'),
     content: `
 ## The Coffee Shop Illusion
 

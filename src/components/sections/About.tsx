@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { getAssetPath } from '@/lib/utils';
 
 export default function About() {
   return (
@@ -23,14 +24,14 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="/images/pantry2.png" 
+                src={getAssetPath("/images/pantry2.png")} 
                 alt="Modern Pantry Area" 
                 className="w-full h-80 object-cover hover:scale-105 transition-transform duration-700" 
               />
             </div>
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="/images/varanda.png" 
+                src={getAssetPath("/images/varanda.png")} 
                 alt="Outdoor Veranda" 
                 className="w-full h-80 object-cover hover:scale-105 transition-transform duration-700" 
               />
