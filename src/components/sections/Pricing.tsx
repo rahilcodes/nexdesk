@@ -30,24 +30,24 @@ export default function Pricing() {
               We believe in clear pricing with no hidden fees. Get access to a premium workspace that scales with your ambition.
             </p>
 
-            <div className="bg-white p-6 rounded-2xl border border-zinc-200 shadow-xl relative overflow-hidden group">
-              <div className="absolute left-0 top-0 w-1 h-full bg-accent-red" />
+            <div className="bg-amber-50/50 p-6 rounded-2xl border border-amber-200 shadow-xl relative overflow-hidden group">
+              <div className="absolute left-0 top-0 w-1 h-full bg-amber-500" />
               <div className="flex items-start gap-4">
-                <Info className="text-accent-red w-6 h-6 flex-shrink-0 mt-0.5" />
+                <Info className="text-amber-500 w-6 h-6 flex-shrink-0 mt-0.5" />
                 <div className="w-full">
-                  <h4 className="font-semibold text-black mb-3 text-lg">Important Details</h4>
-                  <ul className="space-y-3 text-sm text-zinc-600">
+                  <h4 className="font-semibold text-amber-900 mb-3 text-lg">Important Details</h4>
+                  <ul className="space-y-3 text-sm text-amber-800/80">
                     <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-black flex-shrink-0" />
-                      <span><strong>Security Deposit:</strong> 3 Months</span>
+                      <div className="w-1.5 h-1.5 rounded-full bg-amber-500 flex-shrink-0" />
+                      <span><strong className="text-amber-900">Security Deposit:</strong> 3 Months</span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-black flex-shrink-0" />
-                      <span><strong>No onboarding fees</strong></span>
+                      <div className="w-1.5 h-1.5 rounded-full bg-amber-500 flex-shrink-0" />
+                      <span><strong className="text-amber-900">No onboarding fees</strong></span>
                     </li>
                     <li className="flex items-center gap-2">
-                      <div className="w-1.5 h-1.5 rounded-full bg-accent-red flex-shrink-0" />
-                      <span className="font-medium text-black">Pre-booking required to confirm your seat</span>
+                      <div className="w-1.5 h-1.5 rounded-full bg-amber-600 flex-shrink-0" />
+                      <span className="font-semibold text-amber-900">Pre-booking required to confirm your seat</span>
                     </li>
                   </ul>
                 </div>
