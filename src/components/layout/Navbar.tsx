@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
@@ -19,6 +20,7 @@ const _links = [
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,19 +30,21 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const isDarkText = isScrolled || pathname !== '/';
+
   return (
     <motion.header
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/80 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'
+        isDarkText ? 'bg-white/95 backdrop-blur-md shadow-sm py-4 border-b border-zinc-100' : 'bg-transparent py-6'
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <Link href="/" className="block">
           <img 
-            src={isScrolled ? '/nexdesk/images/logo-black.png' : '/nexdesk/images/logo-white.png'} 
+            src={isDarkText ? '/nexdesk/images/logo-black.png' : '/nexdesk/images/logo-white.png'} 
             alt="NEXDESK" 
             className="h-8 md:h-10 w-auto transition-all" 
           />
@@ -53,14 +57,14 @@ export default function Navbar() {
               key={link.name} 
               href={link.href}
               className={`text-sm font-medium transition-colors hover:text-accent-red ${
-                isScrolled ? 'text-zinc-600' : 'text-zinc-200'
+                isDarkText ? 'text-zinc-600' : 'text-zinc-200'
               }`}
             >
               {link.name}
             </Link>
           ))}
           <Button 
-            variant={isScrolled ? 'primary' : 'secondary'} 
+            variant={isDarkText ? 'primary' : 'secondary'} 
             size="sm"
             onClick={() => window.location.href = '#contact'}
           >
@@ -74,9 +78,9 @@ export default function Navbar() {
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? (
-            <X className={isScrolled ? 'text-black' : 'text-white'} />
+            <X className={isDarkText ? 'text-black' : 'text-white'} />
           ) : (
-            <Menu className={isScrolled ? 'text-black' : 'text-white'} />
+            <Menu className={isDarkText ? 'text-black' : 'text-white'} />
           )}
         </button>
       </div>
