@@ -27,7 +27,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "CoworkingSpace",
               "name": "NEXDESK",
-              "image": "https://nexdesk.in/images/private-cabin.png",
+              "image": "https://nexdesk.in/nexdesk/images/private-cabin1.png",
               "url": "https://nexdesk.in",
               "telephone": "+919966998665",
               "priceRange": "₹4999 - ₹5999",

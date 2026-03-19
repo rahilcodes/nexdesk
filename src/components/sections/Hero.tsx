@@ -9,10 +9,11 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-black text-white">
       {/* Background Image / Overlay */}
       <div className="absolute inset-0 z-0 opacity-40">
-        <img 
-          src="/nexdesk/images/meeting-room.png" 
+        <Image 
+          src="/nexdesk/images/reception.png" 
           alt="Premium Coworking Space" 
-          className="object-cover object-center w-full h-full"
+          className="object-cover object-center"
+          fill
         />
       </div>
       <div className="absolute inset-0 z-0 bg-gradient-to-t from-black via-black/60 to-transparent" />
