@@ -63,7 +63,7 @@ export default function Hero() {
             transition={{ delay: 0.5, duration: 0.5 }}
             className="text-sm md:text-base text-zinc-400 font-medium"
           >
-            🔥 <span className="text-accent-red font-semibold">Limited seats available</span> – Book your spot today
+            <span className="text-accent-red font-semibold">Limited seats available</span> – Book your spot today
           </motion.p>
         </motion.div>
       </div>

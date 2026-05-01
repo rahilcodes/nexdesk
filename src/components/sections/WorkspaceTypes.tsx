@@ -18,7 +18,7 @@ const workspaces = [
     capacity: '1 fixed desk',
     desc: 'Your own personal desk in a shared professional space.',
     icon: MonitorPlay,
-    image: getAssetPath('/images/open-desks1.png'),
+    image: getAssetPath('/images/gallery.png'),
   },
   {
     title: 'Private Cabin',

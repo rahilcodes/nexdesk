@@ -48,7 +48,7 @@ export default function Location() {
             className="w-full md:w-2/3 rounded-3xl overflow-hidden shadow-sm border border-zinc-200 h-full"
           >
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d307.95348964950676!2d78.36289135724608!3d17.458596923071777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sone9%20hyderabad!5e0!3m2!1sen!2sin!4v1773852154494!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.024320935778!2d78.3630342!3d17.45855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x83caa45fc340abd9%3A0xee9b39daa6d27739!2sNexdesk%20Coworking%20spaces!5e0!3m2!1sen!2sin!4v1777637599618!5m2!1sen!2sin" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
