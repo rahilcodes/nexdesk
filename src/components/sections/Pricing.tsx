@@ -73,7 +73,7 @@ export default function Pricing() {
               
               <div className="mb-6 pb-6 border-b border-zinc-100">
                 <div className="flex items-baseline gap-2 mb-2">
-                  <span className="text-6xl font-black tracking-tighter text-black">₹5,999</span>
+                  <span className="text-6xl font-black tracking-tighter text-black">₹7,499</span>
                   <span className="text-zinc-400 font-medium text-xl">/mo</span>
                 </div>
                 <div className="flex items-center gap-3">
