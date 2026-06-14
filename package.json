@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy-prep": "next build && node copy-build.js",
     "start": "next start",
     "lint": "next lint"
   },
